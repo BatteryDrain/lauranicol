@@ -56,7 +56,7 @@ button:hover {
     font-size: large;
     margin-right: 5px;
 }
-#imgCredit {
+#imgsorce {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,14 +67,26 @@ button:hover {
     font-style: italic;
 }
 
-@media screen and (min-width: 800px) {
-body {
-    /* background-color: red; */
-    }
-}
-
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 850px) {
 body {
     /* background-color: blue; */
-    }
 }
+
+#content{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+}
+    
+
+@media screen and (max-width: 600px) {
+body {
+    /* background-color: red; */
+}
+#imgsorce {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
