@@ -50,6 +50,9 @@ button:hover {
     margin: 0 auto;
     width: 810px;
 }
+#content p {
+    margin-bottom: 20px;
+}
 
 #content p {
     max-width: 40ch;
@@ -61,6 +64,7 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    color: grey;
 }
 
 .credit {
