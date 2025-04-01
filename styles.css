@@ -96,12 +96,13 @@ body {
     align-items: center;
 }
 }
-@media screen and (min-width: 850px) {
-    body {
-        /* background-color: orange; */
-    }
 
-    button:hover {
-        transform: scale(1.1);
-    }
-    }
+@media screen and (min-width: 850px) {
+body {
+    /* background-color: orange; */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+}
