@@ -6,6 +6,7 @@ h1 {
     color: black;
     margin: 0;
     font-size: 40px;
+    font-weight: 800;
 }
 
 h1:hover {
@@ -23,7 +24,7 @@ p {
 }
 
 body {
-    font-family: "Mulish", Arial, sans-serif;
+    font-family: "Gideon Roman", serif, sans-serif;
     margin: 0;
 
 }
