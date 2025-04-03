@@ -40,7 +40,6 @@ p {
 body {
     font-family: "Gideon Roman", serif, sans-serif;
     margin: 0;
-
 }
 
 #bigImage {
@@ -48,7 +47,7 @@ body {
     height: auto;
 }
 
-button {
+a {
     border: 1px, var(--main-color--), solid;
     background-color: white;
     margin: 5px;
@@ -56,10 +55,9 @@ button {
     color: var(--main-color--);
     width: 100px;
     transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-button:hover {
-    content:url();
+    text-decoration: none;
+    padding-right: 7px;
+    padding-left: 7px;
 }
 
 #content {
@@ -88,34 +86,34 @@ button:hover {
 }
 
 @media screen and (max-width: 850px) {
-body {
-    /* background-color: blue; */
-}
+    body {
+        /* background-color: blue; */
+    }
 
-#content{
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-}
+    #content{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
 }
     
 
 @media screen and (max-width: 600px) {
-body {
-    /* background-color: red; */
-}
-#imgsorce {
-    flex-direction: column;
-    align-items: center;
-}
+    body {
+        /* background-color: red; */
+    }
+    #imgsorce {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 850px) {
-body {
-    /* background-color: orange; */
-}
+    body {
+        /* background-color: orange; */
+    }
 
-button:hover {
-    transform: scale(1.1);
-}
+    a:hover {
+        transform: scale(1.1);
+    }
 }
