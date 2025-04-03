@@ -13,3 +13,10 @@
 // moreButton.addEventListener("mouseleave", () => {
 //     moreButton.innerHTML = "";
 // });
+link1.addEventListener("click", () => {
+    goToLink(index.html)
+});
+
+link2.addEventListener("click", () => {
+    goToLink(more.html)
+});
