@@ -54,6 +54,7 @@ a {
     border-radius: 20px;
     color: var(--main-color--);
     width: 100px;
+    scale: 1;
     transition: transform 0.3s ease, filter 0.3s ease;
     text-decoration: none;
     padding-right: 7px;
